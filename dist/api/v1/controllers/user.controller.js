@@ -99,7 +99,7 @@ const login = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
         const token = user.token;
         res.json({
             code: 200,
-            message: "Đăng kí thành công !",
+            message: "Đăng nhập thành công !",
             token: token
         });
     }

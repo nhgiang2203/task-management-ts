@@ -71,7 +71,7 @@ export const login = async (req: Request, res: Response) => {
 
     res.json({
       code: 200,
-      message: "Đăng kí thành công !",
+      message: "Đăng nhập thành công !",
       token: token
     });
   } catch (error){
